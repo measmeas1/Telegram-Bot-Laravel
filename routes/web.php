@@ -1,7 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+// routes/web.php
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use App\Http\Controllers\TelegramBotController;
+use GuzzleHttp\Psr7\Request;
+use Illuminate\Support\Facades\Route;
+use Telegram\Bot\Laravel\Facades\Telegram;
+

@@ -18,7 +18,17 @@ composer require irazasyed/telegram-bot-sdk
 ```
 
 ## 🚀 Publish Configuration File
-# Publish the configuration file by running this command in your terminal window:
+<p>Publish the configuration file by running this command in your terminal window:</p>
 ```
 php artisan vendor:publish --tag="telegram-config"
+```
+
+# Download ngrok with the link 
+```
+https://ngrok.com/downloads/windows?tab=download
+```
+
+# Open ngrok.exe and run command 
+```
+ngrok http 8000
 ```
